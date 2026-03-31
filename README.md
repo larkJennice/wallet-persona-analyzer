@@ -8,14 +8,6 @@ Live Demo: https://wallet-persona-analyzer.vercel.app
 
 ---
 
-# Wallet Persona Analyzer
-
-Analyze any crypto wallet and generate a simple, human-readable summary of its behavior using Zerion data and AI.
-
-Live Demo: https://wallet-persona-analyzer.vercel.app
-
----
-
 ## ✨ Features
 
 - 🔍 Analyze wallet portfolios via Zerion API
@@ -53,6 +45,9 @@ Create a `.env.local` file in the project root:
 ZERION_API_KEY=your_zerion_api_key
 GEMINI_API_KEY=your_gemini_api_key
 ```
+
+---
+
 ## 📦 Available Scripts
 ```bash
 npm run dev      # start local development server
@@ -60,6 +55,9 @@ npm run build    # build for production
 npm run start    # start production server
 npm run lint     # run ESLint
 ```
+
+---
+
 ## API Reference
 
 - Zerion Wallet Portfolio API: https://developers.zerion.io/api-reference/wallets/get-wallet-portfolio
